@@ -23,7 +23,8 @@ def index(request):
     print(api.getListOfSources())
     print("------LIST OF AUTHORS--------")
     print(api.getListOfAuthors())
-    return HttpResponse("Hello")
+    queryresult=Article.objects.all()
+    return render(request,'article.html',context={'queryset':queryresult})
 
 class Articles(object):
     total=0

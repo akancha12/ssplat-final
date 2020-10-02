@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" prefix="op: http://media.facebook.com/op#">
+  <head>
+    <meta charset="utf-8">
+    <link rel="canonical" href="http://example.com/article.html">
+    <meta property="op:markup_version" content="v1.0">
+  </head>
+  <body>
+      <center><h1>Articles<h1></center>
+    {% for q in queryset %}
+    <article>
+      <header>
+        <!-- The title and subtitle shown in your Instant Article -->
+        <h1>{{q.title}}</h1>
+
+        <!-- The cover image shown inside your article --> 
+        <figure>
+          <img src={{q.urlToImage}} />
+          <figcaption>This image is amazing</figcaption>
+        </figure>   
+
+      <!-- Body text for your article -->
+      <p> {{q.content}} </p> 
+    </article>
+    <hr><hr>
+    {%endfor%}
+</body>
+</html>
