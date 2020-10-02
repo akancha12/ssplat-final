@@ -1,8 +1,6 @@
 # ssplat-final
 VIDEO LINK: https://youtu.be/8lNl1vvXJjs
-(still uploading.. low bandwidth)
 
-DRIVE LINK FOR VIDEO: https://drive.google.com/drive/folders/1d-WpdIWPeNRMcVHeVR_f0MXWOoYwXnVj?usp=sharing
 
 # TASK DESCRIPTION
 Backend tasks completed:
@@ -31,4 +29,5 @@ Extra credit tasks completed:
 Screenshots:
 ![image](https://user-images.githubusercontent.com/47851459/94944935-94835400-04f7-11eb-929d-0cf48a084f2b.png)
 ![image](https://user-images.githubusercontent.com/47851459/94944318-b3351b00-04f6-11eb-8b5f-2c072963030e.png)
-
+![image](https://user-images.githubusercontent.com/47851459/94954206-69ecc780-0506-11eb-91d5-01d280a1884b.png)
+![image](https://user-images.githubusercontent.com/47851459/94954239-796c1080-0506-11eb-9569-6dc27342f219.png)
